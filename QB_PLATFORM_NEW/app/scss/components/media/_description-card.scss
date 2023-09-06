@@ -1,0 +1,224 @@
+
+
+
+
+
+
+@media(max-width: 950px){
+  section.description-card{
+    margin-bottom: 50px;
+  }
+  .description-card__descr{
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .description-card__title{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  section.description-card.qr-code-card{
+    margin-bottom: 50px;
+  }
+}
+
+
+
+@media(max-width: 650px){
+  .description-card__content{
+    padding: 15px;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    padding-bottom: 0;
+  }
+  .description-card__btn-wrap{
+    padding: 15px;
+  }
+  .description-card__card{
+    border-radius: 15px;
+  }
+  .description-card__btn{
+    margin: 0;
+  }
+}
+
+@media(max-width: 1000px){
+  .description-card__inner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .description-card__card{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-top: 50px;
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+  .description-card__content{
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .description-card__btn{
+    width: 100%;
+    max-width: 570px;
+  }
+  .description-card__img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 22px;
+  }
+}
+
+
+
+@media(max-width: 1170px){
+  .description-card.horeca .description-card__card:nth-child(1) .description-card__img{
+    max-width: 341px;
+  }
+  .description-card.horeca .description-card__card:nth-child(2) .description-card__img{
+    max-width: 400px;
+  }
+}
+
+@media(max-width: 1000px){
+  .description-card.horeca .description-card__card:nth-child(1) .description-card__img{
+    max-width: 570px;
+    width: 100%;
+  }
+  .description-card.horeca .description-card__card:nth-child(2) .description-card__img{
+    max-width: 570px;
+    width: 100%;
+  }
+  .description-card.horeca .description-card__titles{
+    height: auto;
+  }
+  .description-card.horeca .description-card__descr{
+    height: auto;
+  }
+
+}
+@media(max-width: 950px){
+  .description-card.horeca .description-card__subtitle{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .description-card.horeca {
+    margin-top: 50px;
+  }
+}
+
+
+@media(max-width: 1086px){
+  .description-card.qb-tools{
+    .description-card__content{
+      height: 290px;
+    }
+    .description-card__card{
+      &:last-child{
+        .description-card__content{
+          height: 300px;
+        }
+      }
+    }
+  }
+
+}
+
+@media(max-width: 1000px){
+  .description-card.qb-tools{
+    .description-card__content{
+      height: auto;
+    }
+    .description-card__card{
+      &:last-child{
+        .description-card__content{
+          height: auto;
+        }
+      }
+    }
+  }
+
+}
+
+@media(max-width: 660px){
+  .description-card__btn{
+    margin: 15px auto;
+    max-width: 345px;
+  }
+  .description-card.horeca-2 .description-card__content{
+    height: auto;
+  }
+}
+
+@media(max-width: 400px){
+  .description-card__btn{
+    margin: 15px auto;
+    max-width: 315px;
+  }
+}
+
+
+
+
+
+
+@media(max-width: 1215px){
+  section.description-card.mobile-when{
+    .description-card__img{
+      width: 540px;
+      display: block;
+      margin: 30px auto 0 auto;
+      &.mobile-4{
+        width: 500px;
+      }
+    }
+  }
+}
+
+
+
+@media(max-width: 1130px){
+  section.description-card.mobile-when{
+    .description-card__content{
+      height: 230px;
+    }
+    .description-card__img{
+      width: 486px;
+      display: block;
+      margin: 30px auto 0 auto;
+      &.mobile-4{
+        width: 450px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1000px){
+  section.description-card.mobile-when{
+    .description-card__titles{
+      height: auto;
+    }
+    .description-card__content{
+      height: auto;
+    }
+    .description-card__img{
+      width: 100%;
+      display: block;
+      margin: 30px auto 0 auto;
+      &.mobile-4{
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

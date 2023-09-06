@@ -1,0 +1,187 @@
+
+
+//  PAYMENT style ----------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+
+
+.payment {
+  margin-bottom: 50px;
+  &__title {
+    @include text-style($orange-color, 34px, 41px, 700);
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    width: 100%;
+  }
+  &__img {
+    max-width: 570px;
+    width: 100%
+  }
+  &__list {
+    max-width: 570px;
+    width: 100%;
+    min-width: 490px;
+
+  }
+  &__list-item {
+    margin-bottom: 70px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    &:nth-child(1){
+      .payment__list-number{
+        padding: 5.5px 22px;
+      }
+    }
+    &:nth-child(2){
+      .payment__list-number{
+        padding: 5.5px 18px;
+      }
+    }
+    &:nth-child(3){
+      .payment__list-number{
+        padding: 5.5px 18px;
+      }
+    }
+    &:nth-child(4){
+      .payment__list-number{
+        padding: 5.5px 16.5px;
+      }
+    }
+  }
+  &__list-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  &__list-number {
+    @include text-style($white-color, 40px, 49px, 700);
+    display: block;
+    text-align: center;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 20px 0px rgba(255, 94, 19, 0.40), 4px 4px 15px 0px rgba(255, 255, 255, 0.20) inset;
+    background: linear-gradient(115deg, #FF5B29 0%, #FFA917 100%);
+    padding: 10px;
+  }
+  &__list-text {
+    @include text-style($dark-color, 16px, 27px, 500);
+
+    margin-left: 15px;
+  }
+  &__list-images {
+    flex-wrap: wrap;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  &__list-img {
+    max-width: 65px;
+    width: 100%;
+    filter: drop-shadow(0px 7px 10px rgba(0, 0, 0, 0.10));
+    margin-left: 10px;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+  &__list-img2 {
+    width: 100%;
+    filter: drop-shadow(0px 7px 10px rgba(0, 0, 0, 0.10));
+    margin-left: 10px;
+    &:nth-child(1){
+      max-width: 135px;
+      width: 100%;
+      margin-left: 0;
+    }
+    &:nth-child(2){
+      max-width: 112px;
+      width: 100%;
+    }
+    &:nth-child(3){
+      max-width: 128px;
+      width: 100%;
+    }
+  }
+  &__box{
+    min-width: 430px;
+    &:last-child{
+      margin-left: 30px;
+    }
+  }
+}
+
+
+@media(max-width: 1140px){
+  ul.payment__list{
+    min-width: 450px;
+    width: 100%;
+  }
+  .payment__img{
+    width: 100%;
+  }
+}
+
+@media(max-width: 950px){
+  .payment__title{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .payment__inner{
+    flex-direction: column-reverse;
+  }
+  .payment__box{
+    min-width: 1px;
+    &:last-child{
+      margin-left: 0px;
+      margin-bottom: 30px;
+    }
+  }
+  ul.payment__list{
+    min-width: 1px;
+  }
+}
+
+
+@media(max-width: 515px){
+  .payment__list-images{
+    width: 260px;
+  }
+  .payment__list-number{
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .payment__list-item:nth-child(1) .payment__list-number{
+    padding: 1.5px 14px;
+  }
+  .payment__list-item:nth-child(2) .payment__list-number{
+    padding: 1.5px 11px;
+  }
+  .payment__list-item:nth-child(3) .payment__list-number{
+    padding: 1.5px 11px;
+  }
+  .payment__list-item{
+    &:nth-child(2){
+      .payment__list-img{
+        width: 64px;
+      }
+      .payment__list-images{
+        margin-left: 55px;
+        width: 100%;
+        max-width: 290px;
+      }
+    }
+  }
+  .payment__list-img2:nth-child(3){
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+// ----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------- PAYMENT style end

@@ -1,0 +1,199 @@
+.top {
+  &__inner {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  &__box {
+    margin-right: 30px;
+    max-width: 570px;
+    &:nth-child(2){
+      margin-right: 0;
+    }
+  }
+  &__title {
+    @include text-style($orange-color, 42px, 51px, 700);
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    @include text-style($orange-color, 24px, 29px, 600);
+    margin-bottom: 20px;
+  }
+  &__description {
+    @include text-style($dark-color, 16px, 27px, 500);
+    margin-bottom: 35px;
+    margin-top: 20px;
+  }
+  &__bold {
+    @include text-style($dark-color, 16px, 20px, 700);
+  }
+  &__input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: $white-gray;
+    border-radius: 15px;
+    width: 470px;
+    padding: 25px 1px 25px 76px;
+    transition: all .3s;
+    @include text-style($dark-color, 16px, 20px, 400);
+    cursor: text;
+    &::placeholder{
+      color: rgba($dark-color, 0.3);
+    }
+    &:hover{
+      background: $white-color;
+      outline: 1px solid $orange-color;
+    }
+    &:focus{
+      background: $white-color;
+      outline: 1px solid $orange-color;
+      caret-color: $orange-color;
+    }
+  }
+  &__form{
+    position: relative;
+  }
+  &__box{
+    position: relative;
+  }
+  &__content-absolute{
+    position: absolute;
+    top: -90px;
+    right: -70px;
+    background-color: $white-color;
+    border-radius: 100px;
+    border: 4px solid $orange-color;
+    max-width: 333px;
+    transform: rotate(4.852deg);
+    box-shadow: 5.848048210144043px 11.696096420288086px 29.2402400970459px 0px rgba(0, 0, 0, 0.25);
+  }
+  &__content-text{
+    @include text-style($dark-color, 22px, 27px, 700);
+    padding: 10px;
+    text-align: center;
+    & span{
+      color: $orange-color;
+    }
+  }
+  &__btn {
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 10px;
+    right: 110px;
+    width: 145px;
+  }
+  &__form-descr {
+    @include text-style($dark-color, 16px, 27px, 500);
+    margin-top: 10px;
+  }
+  &__img {
+    max-width: 570px;
+    width: 100%;
+    min-width: 370px;
+  }
+  &__form.mobile {
+    display: none;
+  }
+  &__form-descr.mobile{
+    display: none;
+  }
+  &__box-logo{
+    margin-bottom: 30px;
+  }
+  &__btn-mobile{
+    max-width: none;
+    margin-top: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+}
+
+input#phone.top__input{
+  padding: 25px 281px 25px 76px;
+}
+
+.iti__selected-flag{
+  padding-left: 30px;
+  padding-right: 8px;
+}
+
+.iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+
+
+
+
+.top.feedback{
+  .top__inner{
+    padding-top: 173px;
+  }
+}
+
+
+.top.index{
+  overflow-x: hidden;
+  .top__btn{
+    right: 92px;
+  }
+  .top__box{
+    &:first-child{
+      margin-right: 0;
+      max-width: 552px;
+    }
+  }
+  .top__inner{
+    padding-top: 143px;
+  }
+}
+
+.top__img.big-img{
+  width: 800px!important;
+  max-width: 800px!important;
+}
+
+.top-qr{
+  .top__inner{
+    padding-top: 170px;
+  }
+}
+
+.top.marketing{
+  .top__inner{
+    padding-top: 143px;
+  }
+}
+
+.top.qb-tools{
+  .top__inner{
+    padding-top: 115px;
+  }
+}
+
+.micro-site{
+  word-wrap: break-word;
+}
+
+.top.brend{
+  .top__inner{
+    padding-top:153px;
+    align-items: end;
+  }
+}
+
+.top.horeca{
+  .top__inner{
+    padding-top: 113px;
+  }
+}
+
+.top.sport{
+  .top__inner{
+    padding-top: 113px;
+  }
+}

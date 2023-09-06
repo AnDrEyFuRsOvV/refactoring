@@ -1,0 +1,452 @@
+@media(max-width: 1230px){
+  .top__img{
+    width: 100%!important;
+  }
+}
+
+@media(max-width: 1230px){
+  .top__img.big-img{
+    width: 700px!important;
+  }
+}
+
+
+@media(max-width: 1170px){
+  .top__content{
+    width: 100%;
+  }
+  .top__title{
+    font-size: 35px;
+    line-height: 36px;
+  }
+  .top__subtitle{
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .top__description{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+  .top__form-descr{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .top__input{
+    width: 436px;
+  }
+  .top__form{
+    width: 571px;
+  }
+  .top__btn{
+    right: 145px;
+  }
+  input#phone.top__input{
+    padding-right: 200px;
+  }
+  .top.index{
+    .top__btn{
+      right: 145px;
+    }
+  }
+}
+
+@media(max-width: 1140px){
+    .top__img.big-img{
+      width: 650px !important;
+      max-width: 650px!important;
+    }
+    .top__subtitle-wrap{
+      height: 55px;
+    }
+  }
+
+  @media(max-width: 1090px){
+    .top__img.big-img{
+      width: 630px !important;
+      max-width: 630px!important;
+    }
+}
+
+
+@media(max-width: 1135px){
+  .top.qr-boss{
+    .top__box:first-child{
+      max-width: 500px;
+    }
+  }
+}
+
+
+
+@media(max-width: 1040px){
+  .top__text-wrapper {
+    height: 57px;
+  }
+}
+
+@media(max-width: 950px) {
+  .top.brend{
+    .top__title{
+      font-size: 26px;
+      line-height: 26px;
+    }
+    .top__content{
+      margin-bottom: 10px;
+    }
+    .top__description{
+      margin-bottom: 15px;
+    }
+  }
+  .top__content-text{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .top__img.big-img{
+    width: 100%!important;
+    max-width: 100%!important;
+  }
+  .top__description {
+    margin-top: 15px;
+  }
+  .top.qr-boss{
+    .top__img{
+      min-width: 100%;
+    }
+  }
+}
+
+@media(max-width: 1060px){
+  .top.brend{
+    .top__inner{
+      padding-top: 150px!important;
+    }
+  }
+    .top.top__qr{
+      .top__inner{
+        padding-top: 120px;
+      }
+    }
+    .top__content{
+      max-width: 470px;
+    }
+}
+
+
+@media(max-width: 1000px){
+
+  .top__box-logo {
+    margin-bottom: 20px;
+  }
+  .logo-2{
+    width: 200px;
+  }
+  .top__content{
+    max-width: 430px;
+  }
+  input#phone.top__input{
+    width: 400px;
+  }
+  .top__btn {
+    right: 180px;
+  }
+  .top.index{
+    .top__btn {
+      right: 182px;
+    }
+  }
+}
+
+
+@media(max-width: 1025px){
+  .top.qr-boss{
+    .top__box:first-child{
+      max-width: 450px;
+    }
+    .top__box-logo{
+      & img{
+        max-width: 200px;
+      }
+    }
+  }
+}
+@media(max-width: 975px){
+  .top.qr-boss{
+    .top__box{
+      margin-right: 15px;
+    }
+  }
+}
+
+
+@media(max-width: 950px){
+  .top.brend{
+    .top__inner{
+      padding-top: 100px!important;
+      align-items: center;
+    }
+    .top__content-absolute{
+      position: relative;
+      display: block;
+      top: 0;
+      right: 0;
+      transform: rotate(0);
+      margin: 0 auto;
+    }
+  }
+  .top.qb-tools{
+    .top__inner{
+      padding-top: 100px;
+    }
+  }
+  .top__inner{
+    padding-top: 100px;
+  }
+  .top.feedback .top__inner {
+    padding-top: 100px;
+  }
+  .top.index{
+    .top__inner{
+      padding-top: 100px;
+    }
+  }
+  .top__subtitle-wrap{
+    height: auto;
+  }
+  .top__content{
+    max-width: 570px;
+    margin-bottom: 20px;
+  }
+  .top__form.mobile {
+    .iti--allow-dropdown input[type=tel] {
+      padding-left: 42%;
+      padding-right: 0;
+      text-align: left;
+    }
+
+    .iti__selected-flag {
+      padding-left: 0 !important;
+    }
+
+    .iti__flag-container {
+      left: 34% !important;
+    }
+  }
+  .top-qr{
+    .top__inner{
+      padding-top: 100px;
+    }
+  }
+  .top.qr-boss .top__title{
+    margin-bottom: 15px;
+  }
+  .top__img{
+    margin-bottom: 20px;
+  }
+  .logo-2{
+    max-width: 178px;
+  }
+  .top__box-logo{
+    margin-bottom: 10px;
+  }
+  .top.qr-boss .top__inner{
+    padding-top: 100px;
+  }
+  .top.marketing .top__inner{
+    padding-top: 95px;
+  }
+  .top__img{
+    min-width: 100%;
+    width: 100%;
+  }
+  .top.top__qr-code{
+    .top__img{
+      min-width: 100%;
+    }
+  }
+  .top.horeca .top__inner {
+    padding-top: 93px;
+  }
+  #phone-2 .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel]{
+    padding-left: 65px;
+    padding-right: 50px;
+  }
+  .top__input{
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .top__inner{
+    padding-bottom: 50px;
+  }
+  .cards__wrapper{
+    padding-top: 0;
+  }
+  .top__form{
+    display: none;
+    width: 100%;
+    max-width: 570px;
+  }
+  .top__input{
+    border: 1px solid $orange-color;
+    border-radius: 10px;
+    outline: none!important;
+    &:hover{
+      outline: none!important;
+    }
+  }
+  .top__form-descr{
+    display: none;
+  }
+  .top__inner{
+    flex-direction: column;
+  }
+  .top__box{
+    margin-right: 0;
+  }
+  .top__form.mobile{
+    display: flex;
+    flex-direction: column;
+  }
+  .top__form-descr.mobile{
+    display: block;
+    font-size: 12px;
+    text-align: left;
+  }
+  .top__btn{
+    margin-top: 10px;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .top__input{
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+  }
+  .top__img{
+    min-width: 100%;
+  }
+}
+
+@media(max-width: 470px){
+  .top__description{
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .top__subtitle{
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 560px){
+  .top__subtitle-wrap{
+    height: 55px;
+  }
+}
+
+@media(max-width: 550px) {
+  .top__text-wrapper {
+    height: 50px;
+  }
+}
+
+
+
+@media(max-width: 520px){
+  .top__form.mobile {
+    .iti--allow-dropdown input[type=tel] {
+      padding-left: 40%;
+      padding-right: 0;
+      text-align: left;
+    }
+
+    .iti__selected-flag {
+      padding-left: 0 !important;
+    }
+
+    .iti__flag-container {
+      left: 30% !important;
+    }
+  }
+}
+
+@media(max-width: 400px){
+  .top__form.mobile {
+    .iti--allow-dropdown input[type=tel] {
+      padding-left: 37%;
+      padding-right: 0;
+      text-align: left;
+    }
+
+    .iti__flag-container {
+      left: 25% !important;
+    }
+  }
+}
+
+
+@media(max-width: 1100px){
+  .top__text-wrapper{
+    height: 40px;
+  }
+}
+
+@media(max-width: 1095px){
+  .top.top__qr-code{
+    .top__img{
+      min-width: 400px;
+    }
+  }
+}
+
+@media(max-width: 700px){
+  .top.horeca{
+    .top__inner{
+      padding-top: 85px;
+    }
+  }
+  .top__inner{
+    padding-top: 85px;
+  }
+  .top.feedback .top__inner {
+    padding-top: 85px;
+  }
+  .top.index{
+    .top__inner{
+      padding-top: 85px;
+    }
+  }
+  .top-qr{
+    .top__inner{
+      padding-top: 85px;
+    }
+  }
+  .top.marketing{
+    .top__inner{
+      padding-top: 85px;
+    }
+  }
+  .top.qb-tools{
+    .top__inner{
+      padding-top: 85px;
+    }
+  }
+  .top__inner{
+    padding-top: 85px;
+  }
+}
+
+
+@media(max-width: 1110px){
+.top.brend{
+  .top__inner{
+    padding-top:193px;
+  }
+}
+}
+

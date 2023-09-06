@@ -1,0 +1,372 @@
+.tarif {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  &__title {
+    text-align: center;
+    @include text-style($orange-color, 32px, 39px, 700);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  &__inner {
+    display: flex;
+  }
+  &__block-main {
+  }
+  &__main-title {
+    border-top: 1px solid $gray-color;
+    border-bottom: 1px solid $gray-color;
+    padding: 15px;
+    height: 98px;
+    width: 784px;
+    display: flex;
+    align-items: center;
+  }
+  &__main-title-p{
+    @include text-style($dark-color, 24px, 24px, 600);
+  }
+  &__main-body {
+    border-bottom: 1px solid $gray-color;
+  }
+  &__main-item {
+    padding: 15px;
+    max-width: 754px;
+    height: 60px;
+    position: relative;
+  }
+  &__main-text {
+    @include text-style($dark-color, 16px, 27px, 600);
+  }
+  &__block-second {
+  }
+  &__second-title {
+    border: 1px solid $gray-color;
+    padding: 15px;
+    height: 98px;
+    width: 386px;
+    position: relative;
+  }
+  &__second-title-p{
+    @include text-style($dark-color, 24px, 24px, 700);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  &__span{
+    @include text-style($orange-color, 16px, 27px, 700);
+    margin-left: 5px;
+  }
+  &__second-price{
+    @include text-style($orange-color, 24px, 24px, 700);
+    text-align: center;
+  }
+  &__second-body {
+    border-bottom: 1px solid $gray-color;
+    border-right: 1px solid $gray-color;
+    border-left: 1px solid $gray-color;
+  }
+  &__second-item {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  &__second-year{
+    @include text-style($gray-color, 21px, 21px, 700);
+  }
+  &__span-year{
+    @include text-style($gray-color, 16px, 27px, 700);
+    margin-left: 5px;
+  }
+  &-discount{
+    @include text-style($white-color, 13px, 13px, 700);
+    padding: 6px;
+    background-color: $orange-color;
+    border-radius: 6px;
+    margin-left: 5px;
+  }
+  .tarif-btn{
+    display: block;
+    width: 187px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  &__descr {
+    margin-top: 20px;
+    padding: 0 15px;
+
+  }
+  &__descr-text {
+    @include text-style($dark-color, 14px, 23px, 500);
+    font-style: italic;
+  }
+  &__star {
+    @include text-style($orange-color, 14px, 23px, 500);
+    font-style: italic;
+  }
+  &__descr-link {
+    @include text-style($orange-color, 14px, 23px, 600);
+    text-decoration: underline;
+  }
+
+}
+
+.tarif-img__1{
+  position: absolute;
+  top: -46px;
+  right:-43px;
+  z-index: 80;
+}
+.tarif-img__2{
+  position: absolute;
+  top: 0;
+  left: -63px;
+}
+
+
+
+
+
+
+
+
+
+.tarif-mobile {
+  background-color: $white-color;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.10);
+  display: none;
+  &__title {
+    margin-bottom: 5px;
+    @include text-style($dark-color, 20px, 20px, 700);
+  }
+  &__price {
+    @include text-style($orange-color, 35px, 35px, 700);
+    margin-bottom: 15px;
+  }
+  &__span {
+    @include text-style($orange-color, 16px, 27px, 700);
+  }
+  &__descr {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  &__descr-img {
+    margin-right: 10px;
+  }
+  &__descr-text {
+    @include text-style($dark-color, 16px, 27px, 700);
+    //max-width: 283px;
+  }
+  &__btn {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 370px;
+  }
+}
+
+
+
+.tarif-mobile__inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .slick-track{
+    padding: 15px 0;
+  }
+  .slick-dots{
+    height: 15px;
+    padding-right: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    & li{
+      & button{
+        transition: none;
+        cursor: pointer;
+        padding: 0;
+        width: 6px;
+        height: 6px;
+
+        border: none;
+        border-radius: 1000px;
+        background-color: rgba($orange-color, 0.4);
+      }
+      &.slick-active{
+        width: 8px;
+        height: 8px;
+        & button{
+          width: 8px;
+          height: 8px;
+          background-color: $orange-color;
+        }
+      }
+      margin-right: 5px;
+      width: 6px;
+      height: 6px;
+      line-height: 0;
+      font-weight: 0;
+      font-size: 0;
+    }
+  }
+}
+.tarif-mobile.brend{
+  margin-left: 20px;
+  min-width: 345px;
+  &:first-child{
+    margin-left: 0;
+  }
+  .tarif-mobile__price{
+    margin-bottom: 5px;
+  }
+  .tarif-mobile__year{
+    @include text-style($dark-color, 16px, 27px, 500);
+    margin-bottom: 16px;
+  }
+  .tarif-mobile__year-span{
+    @include text-style($dark-color, 16px, 27px, 500);
+    margin-left: 5px;
+  }
+
+}
+
+.tarif__descr.mobile{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.tarif-mobile__descr-text.gray{
+  color: $gray-color;
+}
+
+.tarif-text__img{
+  display: none;
+}
+
+
+.tarif.brend{
+  .tarif__main-item{
+    max-width: 515px;
+  }
+  .tarif__main-title{
+    width: 515px;
+    height: 131px;
+  }
+  .tarif__second-price{
+    margin-bottom: 5px;
+  }
+  .tarif__second-body{
+    border-right: none;
+  }
+  .tarif__second-title{
+    border-right: none;
+    width: 218px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarif__block-second{
+    &:last-child{
+      .tarif__second-title{
+        border-right: 1px solid $gray-color;
+      }
+      .tarif__second-body{
+        border-right: 1px solid $gray-color;
+      }
+    }
+  }
+}
+
+.tarif.brend.mobile{
+  margin-top: 100px;
+  .tarif__second-year{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .tarif__second-price{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .tarif__main-title{
+    height: 129px;
+    width: 510px;
+  }
+  .tarif__main-text{
+    max-width: 415px;
+    min-height: 30px;
+  }
+  .tarif__main-item{
+    height: auto;
+  }
+  .tarif__second-item{
+    &:nth-child(3){
+      height: 84px;
+    }
+    &:nth-child(7){
+      height: 84px;
+    }
+    &:nth-child(10){
+      height: 111px;
+    }
+  }
+  .tarif__second-title{
+    border-right: none;
+    padding: 15px 13px;
+    width: 219px;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarif__block-second{
+    &:last-child{
+      .tarif__second-title{
+        border-right: 1px solid $gray-color;
+      }
+      .tarif__second-body{
+        border-right: 1px solid $gray-color;
+      }
+    }
+  }
+}
+
+
+img.tarif__second-chek{
+  max-width: 40px;
+}
+
+
+
+.tarif.two{
+  .tarif__second-title{
+    width: 327px;
+    height: 131px;
+  }
+  .tarif__second-item{
+    &:last-child{
+      height: 84px;
+    }
+  }
+  .tarif__main-item{
+    &:last-child{
+      height: 84px;
+    }
+  }
+}
+
+.tarif-mobile__smile{
+  position: absolute;
+  right: -15px;
+  top: -20px;
+}
+.tarif-mobile{
+  position: relative;
+}
+

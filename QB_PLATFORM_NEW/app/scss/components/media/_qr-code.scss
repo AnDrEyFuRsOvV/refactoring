@@ -1,0 +1,238 @@
+@media(max-width: 1300px){
+  .qr-code{
+    background-image: none;
+    background-color: $bg-gray;
+  }
+  .qr-code__content{
+    max-width: 570px;
+  }
+  .qr-code__inner{
+  }
+  .qr-code__img{
+    width: 100%;
+  }
+}
+
+@media(max-width: 1150px){
+  .qr-code__content{
+    max-width: 550px;
+  }
+  .qr-code__img{
+    max-width: 430px;
+  }
+  .qr-code__img-slider .slick-list.draggable{
+    height: 610px;
+    width: 430px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 1050px){
+  .qr-code__content{
+    max-width: 500px;
+  }
+}
+
+@media(max-width: 1000px){
+  .qr-code.telegram .qr-code__img{
+    margin-top: 0;
+  }
+  .qr-code.telegram{
+    margin-top: 100px;
+  }
+    .qr-code__img-slider .slick-list.draggable{
+      width: 430px;
+      margin: 0 auto;
+    }
+    .qr-code__mobile{
+      display: block;
+      padding: 0 15px;
+    }
+    img.qr-code__img{
+      width: 430px;
+      width: 100%;
+      margin: 0;
+      display: block;
+      margin-bottom: -1px;
+    }
+    .qr-code{
+      background-color: transparent;
+      position: relative;
+      padding-bottom: 20px;
+      margin-bottom: 155px;
+      width: 100%;
+      max-height: 100%;
+      margin-top: 50px;
+    }
+    .qr-code__mobile{
+      display: block;
+      padding: 0 15px;
+    }
+  .qr-code.telegram .qr-code__img,
+    .qr-code__img{
+
+      width: 100%;
+      margin: 0;
+      display: block;
+      margin-bottom: -1px;
+    }
+
+    .qr-code__inner{
+      flex-direction: column-reverse;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    .qr-code__subtitle,
+    .qr-code__subdescr,
+    .qr-code__btn{
+      display: none;
+    }
+    .qr-code__content{
+      margin: 0;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+
+    .qr-code.slide{
+      margin-top: 50px;
+      .qr-code__mobile-title{
+        margin-top: 35px;
+      }
+      .qr-code__mobile{
+        background-color: $white-color;
+      }
+    }
+    .qr-code__btn-slider{
+      display: none;
+      &.mobile{
+        display: flex;
+        margin: 0 auto;
+        & .slick-slide{
+          display: flex;
+          justify-content: center;
+        }
+        & .slick-dots{
+          width: 100%;
+          bottom: 120px;
+        }
+      }
+    }
+    .qr-code__btn-slide{
+      max-width: fit-content;
+    }
+    .qr-code__descr{
+      margin-bottom: 0;
+    }
+    .qr-code__btn-app.desktop{
+      display: none;
+    }
+    .qr-code.tools{
+      margin-top: 50px;
+    }
+    .qr-code.tools .qr-code__img{
+      margin-top: 0;
+    }
+
+    .qr-code__btn-app{
+      display: none;
+      &.mobile{
+        display: inline-block;
+      }
+    }
+    .qr-code__img-slider{
+      width: 100%;
+    }
+    .qr-code__img-slider .slick-list.draggable {
+      max-height: 600px;
+      height: auto;
+      width: 430px;
+      margin: 0 auto;
+    }
+}
+
+@media(max-width: 950px){
+  .qr-code.telegram{
+    margin-top: 50px;
+  }
+  .big-steps{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .qr-code.qr-section{
+    margin-top: 50px;
+  }
+  .qr-code{
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 950px){
+  h4.qr-code__title{
+    font-size: 25px;
+    line-height: 29px;
+  }
+  p.qr-code__descr{
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 700px){
+  .qr-code{
+    background-image: url(/images/qr-code/bg-mobile.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+  }
+  .qr-code__img-slider .slick-list.draggable{
+    width: 376px;
+    margin: 0 auto;
+  }
+  .qr-code.telegram .qr-code__img,
+  .qr-code__img{
+    width: 100%;
+    width: 376px;
+  }
+}
+
+@media(max-width: 651px){
+  .qr-code.telegram .qr-code__img,
+  .qr-code__img{
+    width: 350px;
+  }
+  .qr-code__img-slider .slick-list.draggable{
+    width: 350px;
+  }
+}
+
+@media(max-width: 550px){
+  .qr-code__img,telegram,
+  .qr-code__img{
+    width: 300px;
+  }
+  .qr-code__img-slider .slick-list.draggable{
+    width: 300px;
+  }
+}
+
+@media(max-width: 450px){
+  .qr-code.telegram .qr-code__img,
+  .qr-code__img{
+    width: 240px;
+  }
+  .qr-code__img-slider .slick-list.draggable{
+    width: 240px;
+  }
+}
